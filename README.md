@@ -15,12 +15,14 @@ Modern ve kullanıcı dostu bir bağlantı (link) yönetim sistemi. Bu uygulama 
 ## Kurulum
 
 1. Projeyi XAMPP'ın htdocs klasörüne klonlayın:
+
 ```bash
 cd c:/xampp/htdocs
-git clone [proje-url]
+git clone [https://github.com/ademcaniyik/link_manager]
 ```
 
 2. MySQL veritabanını oluşturun:
+
 ```sql
 CREATE DATABASE link_db;
 USE link_db;
@@ -42,6 +44,7 @@ CREATE TABLE links (
 3. `config.php` dosyasındaki veritabanı bağlantı bilgilerini kontrol edin.
 
 4. Tarayıcınızda aşağıdaki URL'i açın:
+
 ```
 http://localhost/linkler
 ```
